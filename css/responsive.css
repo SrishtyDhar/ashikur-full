@@ -1,0 +1,706 @@
+/* NAVBAR */
+@media (min-width : 320px) and (max-width : 767px) {
+    nav{
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    }
+}
+/* NAVBAR */
+
+/* BANNER */
+@media (min-width : 320px) and (max-width : 767px){
+    #banner .img img{
+        margin-top: 40px;
+    }
+    .details h5{
+        font-size: 15px;
+     }
+     .details h5 svg{
+        width: 16px;
+        height: 16px;
+    }
+    .details h1{
+        font-size: 34px;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .button{
+        padding: 9px 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .button.outline{
+        padding: 9px 7px;
+        border-radius: 10px;
+    }
+    .social h4{
+        font-size: 18px;
+    }    
+    .social ul li a{
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }    
+}
+@media (min-width : 768px) and (max-width : 991px){
+    #banner .img img{
+        margin-top: 60px;
+    }
+    .social h4{
+        font-size: 18px;
+    } 
+}
+@media (min-width : 992px) and (max-width : 1199px){
+    #banner .button {
+        margin-bottom: 20px;
+    }
+}
+/* BANNER */
+
+/* ABOUT */
+@media (min-width : 320px) and (max-width : 767px){
+    #about .img img{
+        max-width: 100%;
+        transform: scalex(-1)
+    }
+    #about .circle{
+        top: 0;
+        transform: rotate(180deg);
+        width: 150px;
+        height: 80px;
+    }
+    .text{
+        padding-left: 40px;
+    }
+    .text h2 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .text .button.outline {
+        font-size: 14px;
+        padding: 11px 28px;
+    }
+}
+/* ABOUT */
+/* SERVICE */
+@media (min-width : 320px) and (max-width : 767px){
+    .service-card{
+        padding: 0;
+        text-align: left;
+        margin-bottom: 40px;
+        border-radius: 12px;
+    }
+    .service-img img{
+        width: 50px;
+        height: 50px;
+        margin-left: 26px;
+    }
+    .service-text p{
+        padding-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .service-text h5{
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0;
+        padding-top: 26px;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .service-card{
+        margin-bottom: 40px;
+    }
+}
+/* SERVICE */
+/* BRANDING */
+@media (min-width : 320px) and (max-width : 767px){
+    .brand-img img{
+        max-width: 100%;
+    }
+    .brand-text {
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .brand-text h2{
+        font-size: 800;
+        font-size: 24px;
+    }
+    .brand-text p{
+        font-size: 14px;
+    }
+    #branding .button.outline{
+        border: none;
+        padding: 0;
+        font-size: 14px;
+    }
+    .purple{
+        width: 40px;
+        height: 40px;
+        top:-22px;
+        right: 55px;
+    }
+    #branding .button.outline svg{
+        display: inline-block !important;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    .brand-text {
+        padding-left: 40px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+/* BRANDING */
+
+/* DESIGN  */
+@media (min-width : 320px) and (max-width : 767px){
+    .design-text{
+        text-align: left;
+        padding-left: 0;
+        padding-left: 20px;
+    }
+    .design-text .heading{
+        text-align: left;
+    }
+    .design-text .heading h2{
+        font-size: 24px;
+    }
+    .design-text p{
+        font-size: 15px;
+    }
+    .client h5{
+        font-size: 24px;
+    }
+    .client p{
+        font-size: 10px;
+    }
+    .design-card{
+        margin-top: 50px;
+    } 
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    .design-card{
+        margin-top: 50px;
+    }
+    .d-block {
+        display: inline-block!important;
+    }
+}
+/* DESIGN  */
+
+/* EXPERIENCE */
+@media (min-width : 320px) and (max-width : 767px){
+    .timeline .year{
+        border-left: dashed 2px #7A7A7A;
+        border-right: none;
+        padding: 15px 0 10px 20px;
+    }
+    .timeline .time{
+        border-left: dashed 2px #7A7A7A;
+        padding: 0 0 20px 20px;
+    }
+    .timeline .year::after{
+        left: -22px;
+    }
+    .timeline .year::before{
+        left: -11px;
+    }
+    #experience{
+        margin-left: 25px;
+        margin-right: 5px;
+    }
+}
+
+/* EXPERIENCE */
+/* EXPERTskills */
+@media (min-width : 320px) and (max-width : 767px){
+    .nav-pills .nav-link{
+        padding: 0;
+        padding: 12px 50px;
+        margin-top: 50px;
+    }
+    .skill-card {
+        margin-left: 20px;
+    }
+    .heading h2 {
+        font-size: 35px;
+    }
+    .skills{
+        margin-top: 40px;
+    }
+    .skills ul {
+        justify-content: left;
+        padding-left: 10px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    .skills ul {
+        justify-content: left;
+    }
+    .skill-card {
+        margin-left: 10px;
+    }
+    .nav-item{
+     margin-top: 50px;
+    }
+    .heading h2 {
+        font-size: 35px;
+    }
+}
+/* EXPERTskills */
+
+/*  SERVICE-2 */
+@media (min-width : 320px) and (max-width : 767px){
+    #serv .heading p{
+        padding: 13px 0px 40px 0px;
+        font-size: 13px;
+    }
+    #serv .heading{
+        text-align: left;
+    }
+    #serv .heading h2{
+        font-size: 24px;
+    }
+    .serv-card{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .serv-card .serv-img img{
+        width: 54px;
+        height: 54px;
+        padding: 0;
+        margin: 20px 0 0 20px;
+    }
+    .serv-card h4 {
+        font-size: 15px;
+        padding: 23px 0 9px 0;
+    }
+    .serv-card p {
+        font-size: 13px;
+    }
+    .serv-text{
+        text-align: left;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    #serv .heading p {
+        padding: 13px 0px 70px 0px;
+    }
+    .serv-card {
+    margin-bottom: 20px;
+    }
+}
+/*  SERVICE-2 */
+
+/* MY CLIENT */
+@media (min-width : 320px) and (max-width : 767px){
+    #client .heading p{
+        padding-right: 0px;
+    }
+    #client .heading h2{
+        font-size: 28px;
+    }
+    .client-img img{
+        max-width: 100%;
+    }
+    .client-text p{
+        padding-right: 0px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    #client .heading p {
+        padding-right: 40px;
+
+    }
+}
+/* MY CLIENT */
+
+/* MY BOLG */
+@media (min-width : 320px) and (max-width : 767px){
+    #MYblog .heading{
+        text-align: left;
+     }
+    .blog-text .name{
+        font-size: 12px;
+    }
+    .blog-text .date{
+        font-size: 12px;
+        padding: 0;
+    }
+    .blog-text h5{
+        font-size: 15px;
+        padding-bottom: 50px;
+        padding-top: 5px;
+    }
+    .blog-text h6{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .blog{
+        margin-top: 60px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    #MYblog .heading{
+        text-align: left;
+     }
+}
+/* MY BOLG */
+
+/* SUBSCRIBE STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    .sub-button{
+        padding-left: 70px;
+        margin-top: 50px;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .sub-button{
+        padding-left: 70px;
+        margin-top: 50px;
+    }
+    .sub-button button {
+        position: absolute;
+        padding: 23px 25px;
+        right: 250px;
+}
+}
+/* SUBSCRIBE ENDS */
+
+/* FOOTER */
+@media (min-width : 320px) and (max-width : 767px){
+    .footer-logo img{
+        width: 150px;
+        height: 30px;
+    }
+    .footer-text h3 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+    .phone {
+        margin-top: 55px;
+    }
+    .footer-text .email {
+        margin-top: 50px;
+    }
+    .footer-button .social {
+        margin-top: 50px;
+    }
+    .footer-button .button {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .footer-button .social ul li a i{
+        font-size: 12px;
+    }
+    .footer-button .social ul li a{
+        line-height: 30px;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .phone {
+        margin-top: 100px;
+    }
+    .footer-button .button {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .footer-button .social {
+        margin-top: 60px;
+    }
+    .footer-text h3 {
+    padding-top: 30px;
+    }
+}
+@media (min-width : 992px) and (max-width : 1199px){
+    .footer-text h3 {
+        font-size: 30px;
+    }
+    .social ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .social ul li a i{
+        font-size: 13px;
+    }
+}
+/* FOOTER */
+/* 2nd page(about) */
+/* ABOUT STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    .card-text h2 {
+        font-size: 28px;
+    }
+    .card-text p {
+        font-size: 12px;
+    }
+    #about-card .container{
+        background-image: url(../image/mbl-abt-bnr.png);
+        background-size: cover;
+        border-radius: 0px;
+    }
+}
+/* ABOUT ENDS */
+/* CV STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    #CV {
+        margin: 20px 0;
+    }
+    .cv-details .info p{
+        font-size: 13px;
+    }
+    .cv-details .info {
+        margin-top: 30px;
+    }
+    .cv-img img{
+        margin-top: 50px;
+        margin-left: 70px;
+        max-width: 100%;
+    }
+    .cv-img p{
+        font-size: 13px;
+        font-weight: 400;
+        color: #7A7A7A;
+        line-height: 200%;
+    }
+    #CV .button {
+        font-size: 13px;
+        padding: 8px 10px;
+        margin-top: 30px;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .cv-img img{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
+/* CV ENDS */
+
+/*  EDUCATION  */
+@media (min-width : 320px) and (max-width : 767px){
+    .exp-edu p {
+        font-size: 12px;
+        padding-left: 20px;
+        
+    }
+    .exp-edu h4{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .exp-edu h6{
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .exp-edu{
+        border-left: 1px dashed #7A7A7A;
+        margin-left: 0px;
+        margin-bottom: 33px;
+    }
+    .exp-edu:nth-child(1){
+        border-left: none;
+    }
+    .exp-edu:nth-child(3){
+        border-left: none;
+    }
+    .exp-edu:nth-child(5){
+        border-left: none;
+    }
+    .exp-edu::after {
+        width: 28px;
+        height: 28px;
+        border: 1px dashed #7A7A7A;
+        top: -31px;
+        left: -15px;
+    }
+    .exp-edu::before {
+        width: 12px;
+        height: 12px;
+        top: -23px;
+        left: -7px;
+    }
+    .exp-edu:nth-child(1)::after{
+        width: 0px;
+        height: 0px;
+    }
+    .exp-edu:nth-child(1)::before{
+        width: 0px;
+        height: 0px;
+    }
+    .exp-edu:nth-child(3)::after{
+        width: 0px;
+        height: 0px;
+    }
+    .exp-edu:nth-child(3)::before{
+        width: 0px;
+        height: 0px;
+    }
+    .exp-edu:nth-child(5)::after{
+        width: 0px;
+        height: 0px;
+    }
+    .exp-edu:nth-child(5)::before{
+        width: 0px;
+        height: 0px;
+    }
+    #education .heading h3{
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #education .heading{
+        padding-bottom: 60px;
+    }
+}
+/*  EDUCATION  */
+
+/* ABOUT-SKILL  */
+@media (min-width : 320px) and (max-width : 767px){
+    #abt-skill h5{
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    #abt-skill .skill-card {
+        margin-left: 5px;
+    }
+}
+/* ABOUT-SKILL  */
+/* 2nd page(about) */
+
+/* 3rd page(project) */
+/* CATEGORIES STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    .post-cnt{
+        padding-bottom: 50px;
+    }
+    .categori-cnt {
+        margin: 0;
+    }
+    .post-cnt img {
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .nav-pills .nav-link {
+        padding: 12px 32px;
+        margin-top: 26px;
+        font-size: 14px;
+    }
+    .categori-cnt ul li button.active{
+        border-radius: 20px;
+    }
+    .post-cnt a{
+        font-size: 12px;
+    }
+    .post-cnt h4{
+        font-size: 15px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1199px){
+   .post-cnt img {
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .post-cnt{
+        margin-bottom: 20px;
+    }
+    .nav-pills .nav-link {
+        padding: 12px 45px;
+        margin-top: 26px;
+        font-size: 14px;
+    }
+    .nav-pills{
+        justify-content: center; 
+    }
+}
+/* CATEGORIES ENDS */
+/* 3rd page(project) */
+
+
+/* 4th page(Blog) */
+/* MARKETING STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    .market-cnt .img img{
+        max-width: 100%;
+    }
+    .market-cnt .mar-text  h4 {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+    .market-cnt .mar-text  p {
+        font-size: 15px;
+    }
+    .market-cnt .mar-text  h5{
+        font-size: 14px;
+    }
+    .market-cnt .mar-text  h5 span{
+        font-size: 14px;
+    }
+    .market-cnt .img img{
+        max-width: 100%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1199px){
+    .market-cnt .img {
+      display: flex;
+      justify-content: center;
+    }
+
+    .market-cnt .mar-text  h4 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .market-cnt .img img{
+        max-width: 100%;
+    }
+}
+/* MARKETING ENDS */
+/* DIGITAL MARKETING STARTS */
+@media (min-width : 320px) and (max-width : 767px){
+    .digital-img img{
+        max-width: 100%;
+    }
+    .digital-text h4 {
+        font-size: 20px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1199px){
+    .digital-img img{
+        max-width: 100%;
+    }
+}
+/* DIGITAL MARKETING ENDS */
+/* 4th page(Blog) */
+
+
+
+/* 5th page(CONTACT) */
+/* CONTACT STARTS */
+@media (min-width : 320px) and (max-width : 992px){
+    .con-form{
+        margin-top: 80px;
+    }
+    .con-form .button{
+        padding: 8px 35px;
+        font-size: 15px;
+    }
+    .con-img img{
+        width: 60px; 
+        height: 60px;
+    }
+    .con-text h5 {
+        font-size: 18px;
+    }
+    .con-text p {
+        font-size: 15px;
+    }
+}
+
+
+/* CONTACT ENDS */
+/* 5th page(CONTACT) */
